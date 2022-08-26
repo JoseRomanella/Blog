@@ -1,0 +1,24 @@
+.navbar{
+
+
+    background: rgb(248, 248, 248);
+    
+    .collapse {
+
+        justify-content: flex-end;
+    
+        .navbar-nav {
+    
+            .nav-item {
+    
+                .nav-link {
+    
+                    font-family: 'Quicksand', sans-serif;
+                    text-transform: uppercase;
+                    color: black;
+                }
+            }
+        }
+    }
+}
+

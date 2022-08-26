@@ -3,7 +3,21 @@
   padding: 0;
 }
 
+.navbar {
+  background: rgb(248, 248, 248);
+}
+.navbar .collapse {
+  justify-content: flex-end;
+}
+.navbar .collapse .navbar-nav .nav-item .nav-link {
+  font-family: "Quicksand", sans-serif;
+  text-transform: uppercase;
+  color: black;
+}
+
 /*----------------------------------------------------------------------------------------------------------------*/
 /*GENERAL*/
+/*----------------------------------------------------------------------------------------------------------------*/
+/*INDEX*/
 /*----------------------------------------------------------------------------------------------------------------*/
 /*FOOTER*//*# sourceMappingURL=style.css.map */
