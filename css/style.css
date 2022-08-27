@@ -61,6 +61,33 @@ body {
 /*ACERCA DE*/
 /*----------------------------------------------------------------------------------------------------------------*/
 /*CONTACTO*/
+.row {
+  margin-top: 5%;
+}
+.row .form-control {
+  background: rgba(0, 0, 0, 0);
+  color: white;
+}
+.row .form-control:focus {
+  background-color: rgb(255, 255, 255);
+  box-shadow: none;
+  color: black;
+}
+.row .form-label {
+  color: white;
+}
+.row .btn {
+  background-color: rgba(0, 0, 0, 0);
+  border-color: white;
+}
+.row .btn:hover {
+  background-color: white;
+  color: black;
+}
+.row .btn:focus {
+  box-shadow: none;
+}
+
 /*----------------------------------------------------------------------------------------------------------------*/
 /*FOOTER*/
 .text-muted {

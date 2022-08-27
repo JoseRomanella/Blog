@@ -53,7 +53,45 @@ body{
 /*----------------------------------------------------------------------------------------------------------------*/
 /*CONTACTO*/
 
+.row{
 
+    margin-top: 5%;
+
+    .form-control{
+
+        background: rgba(0, 0, 0, 0);
+        color: white;
+
+        &:focus{
+
+            background-color: rgba(255, 255, 255);
+            box-shadow: none;
+            color: black;
+        }
+    }
+    
+    .form-label{
+    
+        color: white;
+    } 
+    
+    .btn{
+
+        background-color: rgba(0, 0, 0, 0);
+        border-color: white;
+
+        &:hover{
+
+            background-color: white;
+            color: black;
+        }
+
+        &:focus{
+
+            box-shadow: none;
+        }
+    }
+}
 /*----------------------------------------------------------------------------------------------------------------*/
 /*FOOTER*/
 

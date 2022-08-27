@@ -17,7 +17,6 @@
 </head>
 
 <body>
-
   <header>
     <nav class="navbar navbar-expand-lg">
       <div class="container">
@@ -29,24 +28,24 @@
         <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="../index.html">Inicio</a>
+              <a class="nav-link" href="../index.html">Home</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="articulos.html" id="navbarDropdownMenuLink" role="button"
+              <a class="nav-link dropdown-toggle" href="articles.html" id="navbarDropdownMenuLink" role="button"
                 data-bs-toggle="dropdown" aria-expanded="false">
-                Articulos
+                Articles
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item" href="articulos.html">Articulo 1</a></li>
-                <li><a class="dropdown-item" href="articulos.html">Articulo 2</a></li>
-                <li><a class="dropdown-item" href="articulos.html">Articulo 3</a></li>
+                <li><a class="dropdown-item" href="articles.html">Article 1</a></li>
+                <li><a class="dropdown-item" href="articles.html">Article 2</a></li>
+                <li><a class="dropdown-item" href="articles.html">Article 3</a></li>
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="acercade.html">Acerca de</a>
+              <a class="nav-link" href="about.html">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link " href="contacto.html">Contacto</a>
+              <a class="nav-link " href="contact.html">Contact</a>
             </li>
           </ul>
         </div>
@@ -54,9 +53,27 @@
     </nav>
   </header>
 
-  <section>
-    
-  </section>
+  <form class="row g-3">
+    <div class="col-md-6">
+      <label for="inputName" class="form-label">Name</label>
+      <input type="text" class="form-control" id="inputname4">
+    </div>
+    <div class="col-md-6">
+      <label for="inputLastname" class="form-label">Last name</label>
+      <input type="text" class="form-control" id="inputlastname4">
+    </div>
+    <div class="col-12">
+      <label for="inputEmail" class="form-label">Email</label>
+      <input type="email" class="form-control" id="inputAddress">
+    </div>
+    <div class="mb-3">
+      <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+    <div class="col-12">
+      <button type="submit" class="btn btn-primary">Send</button>
+    </div>
+  </form>
 
   <div class="container">
     <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
