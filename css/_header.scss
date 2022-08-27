@@ -1,8 +1,5 @@
 .navbar{
 
-
-    background: rgb(248, 248, 248);
-    
     .collapse {
 
         justify-content: flex-end;
@@ -15,10 +12,18 @@
     
                     font-family: 'Quicksand', sans-serif;
                     text-transform: uppercase;
-                    color: black;
+                    color: rgb(0, 0, 0);
                 }
             }
         }
     }
+}
+
+.dropdown-menu{
+
+    font-family: 'Quicksand', sans-serif;
+    font-size: smaller;
+    color: black;
+
 }
 

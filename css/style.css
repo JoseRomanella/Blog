@@ -3,15 +3,18 @@
   padding: 0;
 }
 
-.navbar {
-  background: rgb(248, 248, 248);
-}
 .navbar .collapse {
   justify-content: flex-end;
 }
 .navbar .collapse .navbar-nav .nav-item .nav-link {
   font-family: "Quicksand", sans-serif;
   text-transform: uppercase;
+  color: rgb(0, 0, 0);
+}
+
+.dropdown-menu {
+  font-family: "Quicksand", sans-serif;
+  font-size: smaller;
   color: black;
 }
 
@@ -19,5 +22,12 @@
 /*GENERAL*/
 /*----------------------------------------------------------------------------------------------------------------*/
 /*INDEX*/
+.img-index {
+  background-image: url(https://img.freepik.com/vector-premium/ilustracion-concepto-psicoterapia-enredado-desenredado-ilustracion-vector-burbuja-habla_36380-1455.jpg?w=1380);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
 /*----------------------------------------------------------------------------------------------------------------*/
 /*FOOTER*//*# sourceMappingURL=style.css.map */
