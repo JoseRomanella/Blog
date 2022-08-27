@@ -1,29 +1,45 @@
-.navbar{
+.my-nav {
+
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+}
+
+.navbar {
 
     .collapse {
 
         justify-content: flex-end;
-    
+
         .navbar-nav {
-    
+
             .nav-item {
-    
+
                 .nav-link {
-    
+
                     font-family: 'Quicksand', sans-serif;
                     text-transform: uppercase;
-                    color: rgb(0, 0, 0);
+                    color: rgb(252, 252, 252);
                 }
             }
         }
     }
 }
 
-.dropdown-menu{
+.dropdown-menu {
 
     font-family: 'Quicksand', sans-serif;
     font-size: smaller;
-    color: black;
+    background-color: rgba(0, 0, 0, 0.158);
 
+    .dropdown-item {
+
+        color: rgb(255, 255, 255);
+        
+        &:hover{
+
+            font-weight: bold;
+            background-color: rgba(0, 0, 0, 0);
+        }
+    }
 }
-
