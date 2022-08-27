@@ -43,15 +43,47 @@ body{
 }
 
 /*----------------------------------------------------------------------------------------------------------------*/
-/*ARTICULOS*/
+/*ARTICLES*/
 
 
 /*----------------------------------------------------------------------------------------------------------------*/
-/*ACERCA DE*/
+/*ABOUT*/
+
+.name{
+
+    color: rgba(255, 255, 255, 0.797);
+}
+
+.text-container{
+
+    border-top: solid;
+    border-color: white;
+    border-width: 1px;
+
+    .text{
+
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 200;
+        padding-top: 3%;
+        text-align: justify;
+        color: white;
+    }    
+}
+
+.imgDisplay{
+
+    text-align: center;
+    vertical-align: middle;
+
+    .imgAbout{
+
+        height: 70%;
+    }
+}
 
 
 /*----------------------------------------------------------------------------------------------------------------*/
-/*CONTACTO*/
+/*CONTACT*/
 
 .row{
 
