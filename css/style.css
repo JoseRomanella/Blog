@@ -69,7 +69,7 @@ body {
 /*----------------------------------------------------------------------------------------------------------------*/
 /*CONTACTO*/
 .row {
-  margin-top: 5%;
+  margin-top: 6%;
 }
 .row .form-control {
   background: rgba(0, 0, 0, 0);
@@ -82,6 +82,7 @@ body {
 }
 .row .form-label {
   color: white;
+  opacity: 0.8;
 }
 .row .btn {
   background-color: rgba(0, 0, 0, 0);
