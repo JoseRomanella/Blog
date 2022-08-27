@@ -9,11 +9,18 @@
   width: 100%;
 }
 
+.navbar .navbar-brand {
+  font-family: "Quicksand", sans-serif;
+  font-size: medium;
+  text-transform: uppercase;
+  color: rgb(252, 252, 252);
+}
 .navbar .collapse {
   justify-content: flex-end;
 }
 .navbar .collapse .navbar-nav .nav-item .nav-link {
   font-family: "Quicksand", sans-serif;
+  font-size: medium;
   text-transform: uppercase;
   color: rgb(252, 252, 252);
 }
