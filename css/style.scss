@@ -10,10 +10,11 @@
 /*----------------------------------------------------------------------------------------------------------------*/
 /*GENERAL*/
 
-body{
+body {
 
     background-color: black;
 }
+
 /*----------------------------------------------------------------------------------------------------------------*/
 /*INDEX*/
 
@@ -27,15 +28,15 @@ body{
     background-size: cover;
 }
 
-.row{
+.row {
 
     margin: 2%;
 
-    .w-100{
+    .w-100 {
 
         opacity: 0.7;
 
-        &:hover{
+        &:hover {
 
             opacity: 1;
         }
@@ -45,52 +46,69 @@ body{
 /*----------------------------------------------------------------------------------------------------------------*/
 /*ARTICLES*/
 
-.card{
+.card {
 
     background-color: black;
 
-    &:hover{
+    &:hover {
 
         background-color: rgb(26, 26, 26);
     }
 
-    .card-body{
+    .card-body {
 
         color: white;
         text-align: justify;
+    }
+}
+
+.card{
+    animation-duration: 4s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 100%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
     }
 }
 
 /*----------------------------------------------------------------------------------------------------------------*/
 /*ABOUT*/
 
-.name{
+.name {
 
     color: rgba(255, 255, 255, 0.797);
 }
 
-.text-container{
+.text-container {
 
     border-top: solid;
     border-color: white;
     border-width: 1px;
 
-    .text{
+    .text {
 
-        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         font-weight: 200;
         padding-top: 3%;
         text-align: justify;
         color: white;
-    }    
+    }
 }
 
-.imgDisplay{
+.imgDisplay {
 
     text-align: center;
     vertical-align: middle;
 
-    .imgAbout{
+    .imgAbout {
 
         height: 70%;
     }
@@ -100,46 +118,47 @@ body{
 /*----------------------------------------------------------------------------------------------------------------*/
 /*CONTACT*/
 
-.row{
+.row {
 
     margin-top: 6%;
 
-    .form-control{
+    .form-control {
 
         background: rgba(0, 0, 0, 0);
         color: white;
 
-        &:focus{
+        &:focus {
 
             background-color: rgba(255, 255, 255);
             box-shadow: none;
             color: black;
         }
     }
-    
-    .form-label{
-    
+
+    .form-label {
+
         color: white;
         opacity: 0.8;
-    } 
-    
-    .btn{
+    }
+
+    .btn {
 
         background-color: rgba(0, 0, 0, 0);
         border-color: white;
 
-        &:hover{
+        &:hover {
 
             background-color: white;
             color: black;
         }
 
-        &:focus{
+        &:focus {
 
             box-shadow: none;
         }
     }
 }
+
 /*----------------------------------------------------------------------------------------------------------------*/
 /*FOOTER*/
 
