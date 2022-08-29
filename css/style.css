@@ -66,6 +66,10 @@ body {
 /*ARTICLES*/
 .card {
   background-color: black;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  -webkit-animation-name: slidein;
+          animation-name: slidein;
 }
 .card:hover {
   background-color: rgb(26, 26, 26);
